@@ -30,7 +30,7 @@ body {
 
     #tour{
         position: absolute;
-        top:25px;
+        top:27px;
         font-size: 25px;
         left:45px;
  }
@@ -53,4 +53,57 @@ body {
         position: absolute;
         top:25px;
         right:165px;
+    }
+
+     
+    #text{
+        position: absolute;
+        top:200px;
+        right:580px;
+        color:white;
+        font-size: 30px;
+        
+        
+    }
+
+    #bild1{
+        position: absolute;
+        top: 280px;
+        left: 700px;
+        box-shadow: -10px -10px 80px #2e2e2e,
+                    10px 10px 80px #2e2e2e;
+    }
+
+    #bild2{
+        position: absolute;
+         top: 335px;
+        left: 450px;
+        box-shadow: -10px -10px 80px #2e2e2e,
+        10px 10px 80px #2e2e2e;
+    }
+
+    #bild3{
+        position: absolute;
+         top: 335px;
+        left: 200px;
+        box-shadow: -10px -10px 80px #2e2e2e,
+        10px 10px 80px #2e2e2e;
+    }
+
+
+    #bild4{
+        position: absolute;
+         top: 335px;
+        right: 450px;
+        box-shadow: -10px -10px 80px #2e2e2e,
+        10px 10px 80px #2e2e2e;
+    }
+
+
+    #bild5{
+        position: absolute;
+         top: 335px;
+        right: 200px;
+        box-shadow: -10px -10px 80px #2e2e2e,
+        10px 10px 80px #2e2e2e;
     }
