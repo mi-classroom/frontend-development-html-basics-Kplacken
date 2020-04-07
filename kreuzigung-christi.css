@@ -7,6 +7,64 @@ body {
     left:25px;
  }
 
+ h1{
+    color: white;
+    margin-left: 20px;
+}
+
+h2 {
+    color: #FFFFFF;
+    margin-left: 20px;
+}
+
+h3 {
+    color: #FFFFFF;
+    margin-left: 20px;
+}
+
+tr {
+    color: white
+}
+
+th {
+    text-align: left;
+    color: black
+}
+
+td {
+    text-align: left;
+    color: black
+}
+
+li {
+    color: white;
+    margin-left: 20px;
+}
+
+ol {
+    margin-left: 20px;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+p {
+    color: white;
+    margin-left: 20px;
+}
+
+
+a {
+    color: white;
+    margin-left: 20px;
+}
+
+div {
+    color: white;
+    margin-left: 20px;
+}
+
  #Table{
     margin-left: 20px;
 }
