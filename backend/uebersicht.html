@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="kreuzigung-christi.css">
 
     <title>"Martyrium des hl. Erasmus"</title>
+</head>
 
 <body>
     <h1>Martyrium des hl. Erasmus</h1>
@@ -14,57 +15,93 @@
     <fieldset>
         <h2>Abbildung vom Gemälde</h2>
 
-        <h5>Bilddatei</h5>
-        <form action="formular.php" method="post" id="eindeutig_id">
-            <input type="text" name="bilddatei">
-            <input type="submit" value="Datei auswählen">
-        </form>
+        <label>Bilddatei</label>
+        <input type="text" name="bilddatei">
+        <input type="submit" value="Datei auswählen">
     </fieldset>
 
     <fieldset>
         <h2>Allgmeine Daten</h2>
-        <h5>Datierung</h5>
+        <label>Datierung</label>
         <input type="text">
 
-        <h5>Eigentümer</h5>
+        <label>Eigentümer</label>
         <input type="text">
 
-        <h5>Besitzer</h5>
+        <label>Besitzer</label>
         <input type="text">
 
-        <h5>Standort</h5>
+        <label>Standort</label>
         <input type="text">
     </fieldset>
 
     <fieldset>
         <h2>Weitere Informationen</h2>
-        <h5>Maße</h5>
+        <label>Maße</label>
         <textarea name="maße" cols="25" rows="5"></textarea>
 
-        <h5>Kurzbeschreibung</h5>
+        <label>Kurzbeschreibung</label>
         <textarea name="kurzbeschreibung" cols="25" rows="5"></textarea>
     </fieldset>
 
     <fieldset>
         <h2>Status</h2>
-            <input type="radio">
-            <label for="sichtbar">Sichtbar</label><br>
-            <input type="radio">
-            <label for="nicht sichtbar">Nicht sichtbar</label><br>
+        <input type="radio">
+        <label>Sichtbar</label>
+        <input type="radio">
+        <label>Nicht sichtbar</label>
     </fieldset>
 
     <fieldset>
         <h2>Zuordnung Tour</h2>
         <select>
             <option>Staatsgalerie im Schloss Johannisburg</option>
-          </select>
+        </select>
     </fieldset>
 
     <input type="submit" value="Speichern">
     <input type="reset" value="Gemälde löschen">
 
     <fieldset>
-    <h2>Gemälde Übersicht</h2>
+        <h2>Gemälde Übersicht</h2>
+
+        <table>
+
+            <tr>
+                <th>Bezeichnung</th>
+                <th>Datierung</th>
+                <th>Tour</th>
+            </tr>
+            <tr>
+                <td>Martyrium des Hl. Erasmus</td>
+                <td>1516</td>
+                <td>Staatsgalerie im Schloss Johannisburg</td>
+            </tr>
+            <tr>
+                <td>Prager Retable[Mitteltafel, Fragment]: HI</td>
+                <td>kurz nach 1520</td>
+                <td>Staatsgalerie im Schloss Johannisburg</td>
+            </tr>
+            <tr>
+                <td>Hl. Hieronymus</td>
+                <td>um 1520</td>
+                <td>Staatsgalerie im Schloss Johannisburg</td>
+            </tr>
+            <tr>
+                <td>Triptychon mit der Heiligen</td>
+                <td>1509</td>
+                <td>Frankfurt, Städel Museum</td>
+            </tr>
+            <tr>
+                <td>Triptychon mit der Heiligen Sippe[Mitteltafel]</td>
+                <td>1509</td>
+                <td>Frankfurt, Städel Museum</td>
+            </tr>
+
+        </table>
+
+        <input type="submit" value="Gemälde hinzufügen">
     </fieldset>
 </body>
-</head>
+
+</html>
