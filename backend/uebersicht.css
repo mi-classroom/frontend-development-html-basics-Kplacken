@@ -1,0 +1,279 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+h1{
+    font-size: 28px;
+    font-weight: 300;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+h3 {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+#set{
+   border:0;
+}
+
+
+#eingabeBild{
+position: absolute;
+width: 245px;
+height: 25px;
+left: 420px;
+top: 392px;
+}
+
+#buttonBild{
+    position: absolute;
+    background-color: rgb(48, 47, 47);
+    border:0;
+    color: white;
+    width: 130px;
+    height: 31px;
+    left: 675px;
+    top: 392px;
+}
+
+#bilddatei{
+    position: absolute;
+    width: 235px;
+    height: 25px;
+    left: 420px;
+    top: 360px; 
+}
+
+#datierung1{
+    position: absolute;
+    width: 385px;
+    height: 25px;  
+}
+
+#eigentümer1{
+    position: absolute;
+    width: 385px;
+    height: 25px; 
+    left: 420px;
+    top: 508.7px;
+}
+
+#eigentümer{
+    position: absolute;
+    width: 385px;
+    height: 25px; 
+    left: 420px;
+    top: 472px;
+}
+
+#besitzer1{
+    position: absolute;
+    width: 385px;
+    height: 25px; 
+    left: 24px;
+    top: 590px;
+}
+
+#besitzer{
+    position: absolute;
+    width: 385px;
+    height: 25px; 
+    left: 24px;
+    top: 555px;
+}
+
+#standort1{
+    position: absolute;
+    width: 385px;
+    height: 25px; 
+    left: 420px;
+    top: 590px;
+}
+
+#standort{
+    position: absolute;
+    width: 385px;
+    height: 25px; 
+    left: 420px;
+    top: 555px;
+}
+
+
+#infos{
+    position:absolute;
+    left:24px;
+    top:670px;
+}
+
+#maße{
+    position: absolute;
+    left: 24px;
+    top: 695px;
+}
+
+#maße1{
+    position: absolute;
+    width: 385px;
+    height: 90px;
+    left: 24px;
+    top: 730px;
+}
+
+#kurzbeschreibung{
+    position: absolute;
+    width: 385px;
+    height: 90px;
+    left: 420px;
+    top: 695px;
+}
+
+#kurzbeschreibung1{
+    position: absolute;
+    width: 385px;
+    height: 90px;
+    left: 420px;
+    top: 730px;
+}
+
+
+#status{
+    position:absolute;
+    top:870px;
+}
+
+#sichtbar{
+    position: absolute;
+    top:896px;
+    left:45px;
+}
+
+#sichtbar1{
+    position: absolute;
+    top:905px;
+    left:20px;
+}
+
+
+#nichtSichtbar{
+    position: absolute;
+    top:922px;
+    left:45px;
+}
+
+#nichtSichtbar1{
+    position: absolute;
+    top:930px;
+    left:20px;
+}
+
+#tour{
+    position:absolute;
+    top:870px;
+    left: 422px;
+}
+
+#speichern{
+    position: absolute;
+    background-color: rgb(48, 47, 47);
+    color: white;
+    top:980px;
+    left: 24px;
+    width: 193px;
+    border:0;
+    height: 31px;
+}
+
+#löschen{
+    position: absolute;
+    background-color:rgb(48, 47, 47); 
+    color: white;
+    top:980px;
+    left: 221px;
+    width: 193px;
+    border:0;
+    height: 31px;
+}
+
+#auswahl{
+    position: absolute;
+    top:905px;
+    left: 422px;
+    width: 390px;
+    height: 30px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+
+#übersicht{
+    position:absolute;
+    left:24px;
+    top:1100px;
+}
+
+
+table{
+    position: absolute;
+    top:1150px;
+    widows: 100%;
+    background-color: white;
+    font-size: 12px;
+    width: 805px;
+    left:13px;
+}
+
+th {
+    text-align: left;
+    color: black;
+    height: 15px;
+    background-color: white;
+    left: 24px;
+    padding: 10px;
+
+}
+
+td {
+    text-align: left;
+    color: black;
+    height: 30px;
+    background-color:white;
+    padding:10px;
+}
+
+.zeile1 td {
+    background-color: #dbdbdb ;
+}
+
+.zeile3 td{
+    background-color: #dbdbdb ;
+}
+
+.zeile5 td{
+    background-color: #dbdbdb ;
+}
+
+
+#hinzufügen{
+    position:absolute;
+    top:1500px;
+    height: 30px;
+    border:0;
+    background-color:rgb(48, 47, 47); 
+    color:white;
+
+}
+
+#blackRow {
+    position: absolute;
+    background-color:0;
+    left:22px;
+    height: 1580px;
+    width: 805px;
+    border:1px solid black;
+  }
