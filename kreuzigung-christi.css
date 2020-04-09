@@ -7,6 +7,13 @@ body {
     left:25px;
  }
 
+ table{
+     border: 1px solid black;
+     widows: 100%;
+     margin-left: 20px;
+     background-color: #c4c4c4;
+ }
+
  h1{
     color: white;
     margin-left: 20px;
@@ -28,12 +35,19 @@ tr {
 
 th {
     text-align: left;
-    color: black
+    color: black;
+    border: 1px solid black;
+    height: 50px;
+    background-color: #c4c4c4;
+  
 }
 
 td {
     text-align: left;
-    color: black
+    color: black;
+    border: 1px solid black;
+    height: 30px;
+    background-color: #c4c4c4;
 }
 
 li {
