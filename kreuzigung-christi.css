@@ -39,6 +39,7 @@ th {
     border: 1px solid black;
     height: 50px;
     background-color: #c4c4c4;
+    padding:15px;
   
 }
 
@@ -48,6 +49,7 @@ td {
     border: 1px solid black;
     height: 30px;
     background-color: #c4c4c4;
+    padding:15px;
 }
 
 li {

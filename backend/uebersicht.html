@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="kreuzigung-christi.css">
+
+    <title>"Martyrium des hl. Erasmus"</title>
+
+<body>
+    <h1>Martyrium des hl. Erasmus</h1>
+
+    <fieldset>
+        <h2>Abbildung vom Gemälde</h2>
+
+        <h5>Bilddatei</h5>
+        <form action="formular.php" method="post" id="eindeutig_id">
+            <input type="text" name="bilddatei">
+            <input type="submit" value="Datei auswählen">
+        </form>
+    </fieldset>
+
+    <fieldset>
+        <h2>Allgmeine Daten</h2>
+        <h5>Datierung</h5>
+        <input type="text">
+
+        <h5>Eigentümer</h5>
+        <input type="text">
+
+        <h5>Besitzer</h5>
+        <input type="text">
+
+        <h5>Standort</h5>
+        <input type="text">
+    </fieldset>
+
+    <fieldset>
+        <h2>Weitere Informationen</h2>
+        <h5>Maße</h5>
+        <textarea name="maße" cols="25" rows="5"></textarea>
+
+        <h5>Kurzbeschreibung</h5>
+        <textarea name="kurzbeschreibung" cols="25" rows="5"></textarea>
+    </fieldset>
+
+    <fieldset>
+        <h2>Status</h2>
+            <input type="radio">
+            <label for="sichtbar">Sichtbar</label><br>
+            <input type="radio">
+            <label for="nicht sichtbar">Nicht sichtbar</label><br>
+    </fieldset>
+
+    <fieldset>
+        <h2>Zuordnung Tour</h2>
+        <select>
+            <option>Staatsgalerie im Schloss Johannisburg</option>
+          </select>
+    </fieldset>
+
+    <input type="submit" value="Speichern">
+    <input type="reset" value="Gemälde löschen">
+
+    <fieldset>
+    <h2>Gemälde Übersicht</h2>
+    </fieldset>
+</body>
+</head>
