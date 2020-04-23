@@ -1,6 +1,8 @@
-*{margin-top: 0px;
+*{
+    margin-top: 0;
     margin-bottom: 5px;
-padding: 2px;}
+    padding: 2px;
+} 
 
 body { 
     background-color: rgb(71, 71, 71);
