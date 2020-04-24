@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="uebersicht.css">
+
+    <title>"Martyrium des hl. Erasmus"</title>
+</head>
+
+<body>
+    <p id="blackRow">&nbsp;</p>
+    <fieldset id="set">
+        <h1>Martyrium des hl. Erasmus</h1>
+
+        <h2>Abbildung vom Gemälde</h2>
+        <img src="http://placehold.it/390x300" alt="" />
+        <h3 id="bilddatei">Bilddatei</h3>
+        <input type="text" name="bilddatei" id="eingabeBild">
+        <input type="submit" value="Datei auswählen" id="buttonBild">
+
+        <h2>Allgmeine Daten</h2>
+        <h3 id="datierung">Datierung</h3>
+        <input type="text" id="datierung1">
+        <h3 id="eigentümer">Eigentümer</h3>
+        <input type="text" id="eigentümer1">
+        <h3 id="besitzer">Besitzer</h3>
+        <input type="text" id="besitzer1">
+        <h3 id="standort">Standort</h3>
+        <input type="text" id="standort1">
+
+        <h2><a id="infos">Weitere Informationen</h2></a>
+        <h3 id="maße">Maße</h3>
+        <textarea name="maße" cols="25" rows="5" id="maße1"></textarea>
+        <h3 id="kurzbeschreibung">Kurzbeschreibung</h3>
+        <textarea name="kurzbeschreibung" cols="25" rows="5" id="kurzbeschreibung1"></textarea>
+
+        <h2><a id="status">Status</a></h2>
+        <input type="radio" id="sichtbar1">
+        <h3 id="sichtbar">Sichtbar</h3>
+        <input type="radio" id="nichtSichtbar1">
+        <h3 id="nichtSichtbar">Nicht sichtbar</h3>
+
+        <h2><a id="tour">Zuordnung Tour</a></h2>
+        <select id="auswahl">
+            <option>Staatsgalerie im Schloss Johannisburg</option>
+        </select>
+
+        <input type="submit" value="Speichern" id="speichern">
+        <input type="reset" value="Gemälde löschen" id="löschen">
+
+        <h2><a id="übersicht">Gemälde Übersicht</a></h2>
+        <table>
+            <tr>
+                <th>Bezeichnung</th>
+                <th>Datierung</th>
+                <th>Tour</th>
+            </tr>
+            <tr class="zeile1">
+                <td>Martyrium des Hl. Erasmus</td>
+                <td>1516</td>
+                <td>Staatsgalerie im Schloss Johannisburg</td>
+            </tr>
+            <tr>
+                <td>Prager Retable[Mitteltafel, Fragment]: HI</td>
+                <td>kurz nach 1520</td>
+                <td>Staatsgalerie im Schloss Johannisburg</td>
+            </tr>
+            <tr class="zeile3">
+                <td>Hl. Hieronymus</td>
+                <td>um 1520</td>
+                <td>Staatsgalerie im Schloss Johannisburg</td>
+            </tr>
+            <tr>
+                <td>Triptychon mit der Heiligen</td>
+                <td>1509</td>
+                <td>Frankfurt, Städel Museum</td>
+            </tr>
+            <tr class="zeile5">
+                <td>Triptychon mit der Heiligen Sippe[Mitteltafel]</td>
+                <td>1509</td>
+                <td>Frankfurt, Städel Museum</td>
+            </tr>
+        </table>
+        <input type="submit" value="Gemälde hinzufügen" id="hinzufügen">
+    </fieldset>
+</body>
+
+</html>
