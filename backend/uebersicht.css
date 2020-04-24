@@ -35,7 +35,7 @@ top: 356px;
     color: white;
     width: 120px;
     height: 31px;
-    left: 684px;
+    left: 685px;
     top: 376px;
 }
 
@@ -46,6 +46,17 @@ top: 356px;
     left: 435px;
     top: 376px; 
 }
+
+#set{
+    width: 500px;
+}
+
+#abbildung{
+   
+    height: 320px;
+    width:753px;
+}
+
 
 #allgemein{
     margin-top: 25px;
@@ -70,6 +81,7 @@ top: 356px;
     margin-top: -179px;
     margin-left: 415px;
     height: 160px;
+    width: 340px;
 }
 
 
@@ -92,7 +104,7 @@ top: 356px;
 
 #eigentümer{
     position: absolute;
-    width: 365px;
+    width: 366px;
     height: 25px; 
     left: 435px;
     top: 500px;
@@ -126,7 +138,7 @@ top: 356px;
     position: absolute;
     width: 365px;
     height: 25px; 
-    left: 435px;
+    left: 436px;
     top: 580px;
 }
 
@@ -163,7 +175,7 @@ top: 356px;
 
 #kurzbeschreibung{
     position: absolute;
-    width: 363px;
+    width: 364px;
     height: 90px;
     left: 435px;
     top: 710px;
@@ -221,7 +233,7 @@ top: 356px;
 #auswahl{
     position: absolute;
     top:885px;
-    left: 437px;
+    left: 439px;
     width: 367px;
     height: 30px;
     border: 1px solid black;
