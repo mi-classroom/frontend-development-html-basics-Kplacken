@@ -1,56 +1,78 @@
 <!DOCTYPE html>
+
 <html lang="de">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../backend/styles/uebersicht.css">
+    <link rel="stylesheet" href="/styles/uebersicht.css">
 
     <title>"Martyrium des hl. Erasmus"</title>
 </head>
 
 <body>
-    <p id="blackRow">&nbsp;</p>
     <fieldset id="set">
         <h1>Martyrium des hl. Erasmus</h1>
 
-        <h2>Abbildung vom Gemälde</h2>
-        <img src="http://placehold.it/390x300" alt="" />
-        <h3 id="bilddatei">Bilddatei</h3>
-        <input type="text" name="bilddatei" id="eingabeBild">
-        <input type="submit" value="Datei auswählen" id="buttonBild">
+        <form>
+            <fieldset id="abbildung">
+                <legend>Abbildung vom Gemälde</legend>
+                <img src="http://placehold.it/390x300" alt="" />
+                <label for="bilddatei" id="bilddatei1">Bilddatei</label>
+                <input type="number" name="bilddatei" id="bilddatei">
+                <button type="button" id="buttonBild">Datei auswählen</button>
+            </fieldset>
 
-        <h2>Allgmeine Daten</h2>
-        <h3 id="datierung">Datierung</h3>
-        <input type="text" id="datierung1">
-        <h3 id="eigentümer">Eigentümer</h3>
-        <input type="text" id="eigentümer1">
-        <h3 id="besitzer">Besitzer</h3>
-        <input type="text" id="besitzer1">
-        <h3 id="standort">Standort</h3>
-        <input type="text" id="standort1">
+            <fieldset id="allgemein">
+                <legend>Allgmeine Daten</legend>
 
-        <h2><a id="infos">Weitere Informationen</h2></a>
-        <h3 id="maße">Maße</h3>
-        <textarea name="maße" cols="25" rows="5" id="maße1"></textarea>
-        <h3 id="kurzbeschreibung">Kurzbeschreibung</h3>
-        <textarea name="kurzbeschreibung" cols="25" rows="5" id="kurzbeschreibung1"></textarea>
+                <label for="datierung" id="datierung1">Datierung</label>
+                <input type="number" name="datierung" id="datierung">
 
-        <h2><a id="status">Status</a></h2>
-        <input type="radio" id="sichtbar1">
-        <h3 id="sichtbar">Sichtbar</h3>
-        <input type="radio" id="nichtSichtbar1">
-        <h3 id="nichtSichtbar">Nicht sichtbar</h3>
+                <label for="eigentümer" id="eigentümer1">Eigentümer</label>
+                <input type="number" name="eigentümer" id="eigentümer">
 
-        <h2><a id="tour">Zuordnung Tour</a></h2>
-        <select id="auswahl">
-            <option>Staatsgalerie im Schloss Johannisburg</option>
-        </select>
+                <label for="besitzer" id="besitzer1">Besitzer</label>
+                <input type="number" name="besitzer" id="besitzer">
 
-        <input type="submit" value="Speichern" id="speichern">
-        <input type="reset" value="Gemälde löschen" id="löschen">
+                <label for="standort" id="standort1">Standort</label>
+                <input type="number" name="standort" id="standort">
+            </fieldset>
 
-        <h2><a id="übersicht">Gemälde Übersicht</a></h2>
+            <fieldset id="weitereInfos">
+                <legend>Weitere Informationen</legend>
+
+                <label for="maße" id="maße1">Maße</label>
+                <textarea name="maße" id="maße"></textarea>
+
+                <label for="kurzbeschreibung" id="kurzbeschreibung1">Kurzbeschreibung</label>
+                <textarea name="kurzbeschreibung" id="kurzbeschreibung"></textarea>
+            </fieldset>
+
+            <fieldset id="status">
+                <legend>Status</legend>
+
+                <label for="sichtbar" id="sichtbar1">Sichtbar</label>
+                <input type="radio" name="sichtbar" id="sichtbar">
+
+                <label for="nichtSichtbar" id="nichtSichtbar1">Nicht sichtbar</label>
+                <input type="radio" name="nichtSichtbar" id="nichtSichtbar">
+            </fieldset>
+
+            <fieldset id="zuordnung">
+                <legend>Zuordnung Tour</legend>
+
+                <select id="auswahl">
+                    <option>Staatsgalerie im Schloss Johannisburg</option>
+                </select>
+
+                <input type="submit" value="Speichern" id="speichern">
+                <input type="reset" value="Gemälde löschen" id="löschen">
+            </fieldset>
+        </form>
+
+        <h2 id="übersicht">Gemälde Übersicht</h2>
+
         <table>
             <tr>
                 <th>Bezeichnung</th>

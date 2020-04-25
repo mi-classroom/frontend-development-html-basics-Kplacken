@@ -3,32 +3,32 @@ body {
     font-weight: 500;
 }
 
+
+
 h1{
     font-size: 28px;
     font-weight: 300;
 }
 
-h2 {
-    font-size: 20px;
-    font-weight: 300;
+
+h2{
+    font-size: 16px;
+    font-weight: 400;
 }
 
-h3 {
+
+label {
     font-size: 12px;
     font-weight: 300;
 }
 
-#set{
-   border:0;
-}
 
-
-#eingabeBild{
-position: absolute;
-width: 245px;
-height: 25px;
-left: 420px;
-top: 392px;
+#bilddatei1{
+    position: absolute;
+    width: 240px;
+    height: 25px;
+    left: 435px;
+    top: 356px;
 }
 
 #buttonBild{
@@ -36,146 +36,170 @@ top: 392px;
     background-color: rgb(48, 47, 47);
     border:0;
     color: white;
-    width: 130px;
+    width: 120px;
     height: 31px;
-    left: 675px;
-    top: 392px;
+    left: 685px;
+    top: 376px;
 }
 
 #bilddatei{
     position: absolute;
     width: 235px;
     height: 25px;
-    left: 420px;
-    top: 360px; 
+    left: 435px;
+    top: 376px; 
+}
+
+#set{
+    width: 500px;
+}
+
+#abbildung{
+    height: 320px;
+    width:753px;
+}
+
+#allgemein{
+    margin-top: 25px;
+    height: 160px;
+    width:753px;
+}
+
+#weitereInfos{
+    margin-top: 25px;
+    height: 160px;
+    width: 753px;
+}
+
+#status{
+    margin-top: 25px;
+    height: 160px;
+    width: 380px;
+}
+
+#zuordnung{
+    margin-top: -179px;
+    margin-left: 415px;
+    height: 160px;
+    width: 340px;
+}
+
+#datierung{
+    position: absolute;
+    width: 385px;
+    height: 25px; 
+    left: 38px; 
+    top:500px;
 }
 
 #datierung1{
     position: absolute;
-    width: 385px;
-    height: 25px;  
-}
-
-#eigentümer1{
-    position: absolute;
-    width: 385px;
+    width: 365px;
     height: 25px; 
-    left: 420px;
-    top: 508.7px;
+    left: 38px;
+    top: 478px;
 }
 
 #eigentümer{
     position: absolute;
-    width: 385px;
+    width: 366px;
     height: 25px; 
-    left: 420px;
-    top: 472px;
+    left: 435px;
+    top: 500px;
 }
 
-#besitzer1{
+#eigentümer1{
     position: absolute;
-    width: 385px;
+    width: 365px;
     height: 25px; 
-    left: 24px;
-    top: 590px;
+    left: 435px;
+    top: 478px;
 }
 
 #besitzer{
     position: absolute;
     width: 385px;
     height: 25px; 
-    left: 24px;
+    left: 38px;
+    top: 580px;
+}
+
+#besitzer1{
+    position: absolute;
+    width: 385px;
+    height: 25px; 
+    left: 38px;
     top: 555px;
+}
+
+#standort{
+    position: absolute;
+    width: 365px;
+    height: 25px; 
+    left: 436px;
+    top: 580px;
 }
 
 #standort1{
     position: absolute;
     width: 385px;
     height: 25px; 
-    left: 420px;
-    top: 590px;
-}
-
-#standort{
-    position: absolute;
-    width: 385px;
-    height: 25px; 
-    left: 420px;
+    left: 435px;
     top: 555px;
-}
-
-
-#infos{
-    position:absolute;
-    left:24px;
-    top:670px;
-}
-
-#maße{
-    position: absolute;
-    left: 24px;
-    top: 695px;
 }
 
 #maße1{
     position: absolute;
-    width: 385px;
-    height: 90px;
-    left: 24px;
-    top: 730px;
+    left: 38px;
+    top: 685px;
 }
 
-#kurzbeschreibung{
+#maße{
     position: absolute;
     width: 385px;
     height: 90px;
-    left: 420px;
-    top: 695px;
+    left: 38px;
+    top: 710px;
 }
 
 #kurzbeschreibung1{
     position: absolute;
     width: 385px;
     height: 90px;
-    left: 420px;
-    top: 730px;
+    left: 435px;
+    top: 685px;
 }
 
-
-#status{
-    position:absolute;
-    top:870px;
+#kurzbeschreibung{
+    position: absolute;
+    width: 364px;
+    height: 90px;
+    left: 435px;
+    top: 710px;
 }
 
 #sichtbar{
     position: absolute;
-    top:896px;
-    left:45px;
+    top:885px;
+    left:38px;
 }
 
 #sichtbar1{
     position: absolute;
-    top:905px;
-    left:20px;
+    top:888px;
+    left:70px;
 }
-
 
 #nichtSichtbar{
     position: absolute;
-    top:922px;
-    left:45px;
+    top:910px;
+    left:38px;
 }
 
 #nichtSichtbar1{
     position: absolute;
-    top:930px;
-    left:20px;
-}
-
-#tour{
-    position:absolute;
-    top:870px;
-    left: 422px;
+    top:914px;
+    left:70px;
 }
 
 #speichern{
@@ -183,8 +207,8 @@ top: 392px;
     background-color: rgb(48, 47, 47);
     color: white;
     top:980px;
-    left: 24px;
-    width: 193px;
+    left: 38px;
+    width: 183px;
     border:0;
     height: 31px;
 }
@@ -194,33 +218,31 @@ top: 392px;
     background-color:rgb(48, 47, 47); 
     color: white;
     top:980px;
-    left: 221px;
-    width: 193px;
+    left: 235px;
+    width: 183px;
     border:0;
     height: 31px;
 }
 
 #auswahl{
     position: absolute;
-    top:905px;
-    left: 422px;
-    width: 390px;
+    top:885px;
+    left: 439px;
+    width: 367px;
     height: 30px;
     border: 1px solid black;
     background-color: white;
 }
 
-
 #übersicht{
     position:absolute;
-    left:24px;
-    top:1100px;
+    left:38px;
+    top:1060px;
 }
-
 
 table{
     position: absolute;
-    top:1150px;
+    top:1120px;
     widows: 100%;
     background-color: white;
     font-size: 12px;
@@ -233,9 +255,8 @@ th {
     color: black;
     height: 15px;
     background-color: white;
-    left: 24px;
+    left: 38px;
     padding: 10px;
-
 }
 
 td {
@@ -258,22 +279,12 @@ td {
     background-color: #dbdbdb ;
 }
 
-
 #hinzufügen{
     position:absolute;
-    top:1500px;
+    top:1450px;
     height: 30px;
     border:0;
     background-color:rgb(48, 47, 47); 
     color:white;
-
+    left:38px;
 }
-
-#blackRow {
-    position: absolute;
-    background-color:0;
-    left:12px;
-    height: 1580px;
-    width: 805px;
-    border:1px solid black;
-  }
