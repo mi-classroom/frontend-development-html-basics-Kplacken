@@ -120,5 +120,37 @@ p{
     background-color: white;
     height: 90px;
     width: 210px;
-    left: 300px;
+    left: 166px;
+}
+
+#bild1{
+    position: absolute;
+    top: 78.6px;
+    left: 66px;
+}
+
+#überschrift1{
+    position: absolute;
+    top: 78px;
+    left: 0;
+}
+
+#jahr1{
+    position: absolute;
+    left: 176px;
+    top:104px;
+}
+
+#text1{
+    position: absolute;
+    left: 176px;
+    top:130px;
+}
+
+
+
+
+#field{
+    position: absolute;
+    top: 1000px;
 }
